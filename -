@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int x;
+    cout<<"enter a x value:";
+    cin>> x;
+    
+    if(x<0){
+        cout<< "the result equals to 1.";
+    }
+     if(0<=x && x<=2){
+        cout<<"result equals to "<< x;
+     }
+     if(2<x && x<=4){
+        cout<<"the result equals to 3";
+        }
+    if (4<x){
+        cout<<"the result equals to "<<4-x;
+     }
+    return 0;
+}
+        
